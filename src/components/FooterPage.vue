@@ -122,6 +122,7 @@ export default {
     color: #0282F9;
     display: flex;
     align-items: center;
+    gap: 1rem;
 
     .solcial {
       color: #303030;
@@ -129,7 +130,6 @@ export default {
       width: 50px;
       height: 50px;
       border-radius: 100%;
-      gap: 1rem;
     }
   }
 </style>

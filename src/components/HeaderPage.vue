@@ -48,7 +48,7 @@ export default {
   }
 
   .nav-li-blue {
-    padding: 50px 0;
+    padding: 58px 0;
     border-bottom: 5px solid white;
   }
   .nav-li-blue:hover {

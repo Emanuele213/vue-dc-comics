@@ -51,11 +51,21 @@
         </div>
         <div class="social-media">
           <h2>FOLLOW US</h2>
-          <div class="solcial"></div>
-          <div class="solcial"></div>
-          <div class="solcial"></div>
-          <div class="solcial"></div>
-          <div class="solcial"></div>
+          <div class="">
+            <img src="@/img/footer-facebook.png" alt="facebook">
+          </div>
+          <div class="">
+            <img src="@/img/footer-twitter.png" alt="twitter">
+          </div>
+          <div class="">
+            <img src="@/img/footer-youtube.png" alt="youtube">
+          </div>
+          <div class="">
+            <img src="@/img/footer-pinterest.png" alt="pinterest">
+          </div>
+          <div class="">
+            <img src="@/img/footer-periscope.png" alt="periscope">
+          </div>
         </div>
       </div>
     </div>
@@ -123,13 +133,5 @@ export default {
     display: flex;
     align-items: center;
     gap: 1rem;
-
-    .solcial {
-      color: #303030;
-      background-color: #797979;
-      width: 50px;
-      height: 50px;
-      border-radius: 100%;
-    }
   }
 </style>

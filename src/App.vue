@@ -32,4 +32,8 @@ export default {
   ul {
     list-style: none;
   }
+
+  li:hover {
+    cursor: pointer;
+  }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="header-container">
+  <header class="header-container">
     <div>
       <img src="@/img/dc-logo.png" alt="logo dc" class="img-mod">
     </div>
@@ -17,12 +17,12 @@
         <li class="nav-li-blue">SHOPS</li>
       </ul>
     </nav>
-  </div>
+  </header>
 </template>
 
 <script>
 export default {
-
+  name: 'HeaderPage',
 };
 </script>
 

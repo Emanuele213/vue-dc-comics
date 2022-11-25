@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <footer>
     <div class="bg-image">
       <div class="footer-container">
         <div class="other-things">
@@ -69,12 +69,12 @@
         </div>
       </div>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>
 export default {
-
+  name: 'FooterPage',
 };
 </script>
 

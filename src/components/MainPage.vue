@@ -1,10 +1,8 @@
 <template>
   <main class="main-relative">
-    <div class="bg-black">
-      <img src="@/img/jumbotron.jpg" alt="teen titans">
-      <div class="h1-main-container">
-        <h1>CURRENT SERIES</h1>
-      </div>
+    <img src="@/img/jumbotron.jpg" alt="teen titans" class="img-teen-titans">
+    <div class="h1-main-container">
+      <h1>CURRENT SERIES</h1>
     </div>
     <div class="bg-black-comics">
       <div class="comics-container">
@@ -95,17 +93,15 @@ export default {
 .main-relative {
   position: relative;
 }
-.bg-black {
-  img {
-    object-position: top;
-    object-fit: cover;
-    height: 320px;
-    width: 100%;
-  }
+.img-teen-titans {
+  object-position: top;
+  object-fit: cover;
+  height: 320px;
+  width: 100%;
 }
 .h1-main-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: -4px auto;
   color: white;
   position: relative;
 
@@ -121,8 +117,6 @@ export default {
 
 .bg-black-comics {
   background-color: #1C1C1C;
-  position: relative;
-  top: -4px;
   padding-bottom: 3rem;
 
   .comics-container {

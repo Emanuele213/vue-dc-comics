@@ -44,15 +44,15 @@ export default {
   .flex-nav-bar {
     height: 100%;
     display: flex;
-    gap: 1rem;
   }
 
   .nav-li-blue {
-    padding: 58px 0;
+    padding: 58px 7px;
     border-bottom: 5px solid white;
   }
   .nav-li-blue:hover {
     color: blue;
     border-bottom: 5px solid blue;
+    background-color: lightgray;
   }
 </style>
